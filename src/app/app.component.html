@@ -1,0 +1,6 @@
+<hello name="{{ name }}"></hello>
+<!-- <app-child [child]="parent"></app-child> -->
+<p>{{ parent }}</p>
+<app-child (child)="addString($event)">
+  <div>내용물 넣기</div>
+</app-child>
